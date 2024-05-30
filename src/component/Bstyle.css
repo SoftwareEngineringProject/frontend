@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', cursive;
+  margin: 0;
+}
+
+:root {
+  --color-dark: #2c3131;
+  --color-light: #f3f3f2;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: auto;
+}
+
+.leaderboard {
+  color: red;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 1em;
+  width: 50%;
+}
+
+.duration {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.duration > button {
+  border: 1px solid var(--color-light);
+  padding: 0.5em 2em;
+  border-radius: 50px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.board .duration > button:hover {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}

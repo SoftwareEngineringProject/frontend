@@ -1,0 +1,41 @@
+.form-register-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #336cf1, #fffeff);
+}
+.register-form-container {
+  height: 90%;
+  width: 60%;
+  background: #fffeff;
+  border-radius: 5%;
+}
+.register-form-row {
+  height: 10%;
+  background: transparent;
+}
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
+.register-form-input-section {
+  height: 10%;
+  color: #336cf1;
+}
+.register-form-gender-input-checkbox {
+  color: #336cf1;
+}
+.register-form-checkbox-header {
+  color: #336cf1;
+}
+.signIn-form-button {
+  background: #fffeff;
+  width: 25%;
+  height: auto;
+  font-size: 1rem;
+}

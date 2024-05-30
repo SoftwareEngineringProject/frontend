@@ -1,0 +1,43 @@
+.signIn-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #336cf1, #fffeff);
+}
+
+.signIn-form-container {
+  width: 35%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(85, 74, 235);
+  justify-content: space-around;
+  border-radius: 5%;
+  padding: 5%;
+  background-color: aliceblue;
+}
+
+.signIn-form-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #336cf1;
+}
+.signIn-form-label {
+  color: #336cf1;
+  font-size: 1rem;
+}
+.signIn-form-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signIn-form-button {
+  width: 25%;
+  height: auto;
+  font-size: 1rem;
+  color: #336cf1;
+}
